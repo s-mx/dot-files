@@ -88,20 +88,7 @@ set foldenable
 set wildmenu
 set cursorline
 
-noremap ; l
-noremap l k
-noremap k j
-noremap j h
-
-map <F6> :wall<CR>:!clear<CR>:<CR><C-w>h:!g++ -Wfloat-equal -std=c++11 -O2 -Wall -Wextra -D_DEBUG "%" -o "%:p:r.out"<CR>
-map <F5> :wall<CR>:!clear<CR>:<CR><C-w>h:!g++ -fno-stack-limit -Wfloat-equal -std=c++11 -O2 -Wall -Wextra -D_DEBUG "%" -o "%:p:r.out" && "%:p:r.out"<CR>
-map <F7> :wall<CR>:!clear<CR>:!g++ -g -fno-stack-limit -std=c++11 -Wall -Wextra -D_DEBUG "%" -o "%:p:r.out"<CR>:!gdb "%:p:r.out"<CR>
-map <F4> :wall<CR>:!python3 "%"<CR>
-
-" split on to code and I/O
-map <F10> :vsplit<CR><C-w>l<C-w>40<:split<CR>:e input.txt<CR><C-w>j:e output.txt<CR><C-w>h
 map <F2> :wall<CR>
-map <F3> :wall<CR>:!pastebinit -f cpp %<CR>
 
 set nowrap
 set mouse=a
