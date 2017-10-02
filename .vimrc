@@ -51,9 +51,11 @@ Plugin 'matze/vim-move'
 " vim-go https://github.com/fatih/vim-go
 Plugin 'fatih/vim-go'
 
-
 " github colorsheme
 Plugin 'albertorestifo/github.vim'
+
+" indent line plugin
+Plugin 'Yggdroot/indentLine'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
