@@ -57,6 +57,9 @@ Plugin 'albertorestifo/github.vim'
 " indent line plugin
 Plugin 'Yggdroot/indentLine'
 
+" vim trailing whitespace plugin
+Plugin 'bronson/vim-trailing-whitespace'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
