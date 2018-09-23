@@ -93,15 +93,12 @@ set foldenable
 set wildmenu
 set cursorline
 
-map <F2> :wall<CR>
-
 set nowrap
 set mouse=a
 
 set completeopt-=preview
 let g:ycm_add_preview_to_completeopt=0
 let g:ycm_confirm_extra_conf=0
-let g:ycm_server_python_interpreter='/usr/bin/python'
 
 " height of quickfix window in go
 let g:go_list_height = 15
